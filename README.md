@@ -14,7 +14,10 @@ Make sure that you have both [python3](https://www.python.org/downloads/) and `r
 ```bash
 pip install requests
 ```
-Run attention-whore, a great, useful example file is included when downloading or cloning.
+Run `attention-whore`.
 ```bash
 python3 notice_me.py
 ```
+
+## License
+MIT
