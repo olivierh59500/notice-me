@@ -71,5 +71,5 @@ if __name__ == "__main__":
     print("adding \"collaborators\"")
 
     for user in user_list:
-        print(user)
         kardashian.touch_collaborator(project, user)
+        print("Added (and removed) {0} to {1}".format(user, project))

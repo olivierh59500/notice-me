@@ -18,6 +18,7 @@ Run `attention-whore`.
 ```bash
 python3 notice_me.py
 ```
+When asked for a `password (or access code)`, [create one](https://github.com/settings/tokens) with the `repo` scope.
 
 ## License
 MIT
