@@ -1,8 +1,8 @@
-import requests
 import json
+import requests
 
 
-class attention_whore:
+class AttentionWhore(object):
 
     def __init__(self, username, password):
         self.gh_username = username

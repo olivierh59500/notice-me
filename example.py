@@ -1,4 +1,4 @@
-from notice_me import attention_whore
+from notice_me import AttentionWhore
 
 username = input("github username: ")
 password = input("github password (or access code): ")
@@ -14,7 +14,7 @@ else:
     except:
         star_count = 1000
 
-kardashian = attention_whore(username, password)
+kardashian = AttentionWhore(username, password)
 
 print("getting the user list")
 
