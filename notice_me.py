@@ -2,7 +2,7 @@ import json
 import requests
 
 
-class AttentionWhore(object):
+class NoticeMe(object):
 
     def __init__(self, username, password):
         self.gh_username = username
@@ -62,7 +62,7 @@ if __name__ == "__main__":
         except:
             star_count = 1000
 
-    kardashian = AttentionWhore(username, password)
+    kardashian = NoticeMe(username, password)
 
     print("getting the user list")
 
