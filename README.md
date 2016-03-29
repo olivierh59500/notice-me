@@ -1,3 +1,7 @@
+**WARNING:** Using this might result in a ban, so use at your own risk.
+
+-----------------
+
 # notice-me
 A proof of concept to show the way project collaborators notifications are handled in Github is flawed.
 
