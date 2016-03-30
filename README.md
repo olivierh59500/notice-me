@@ -33,7 +33,7 @@ No. It's a proof of concept.
 
 **Why though, I want to show people my project...**
 
-This repository wasn't created to help you spam developers all over the world. It was created to show how easy it is to spam people, so that GitHub fixes the issue. You really shouldn't use this. It's supper annoying.
+This repository wasn't created to help you spam developers all over the world. It was created to show how easy it is to spam people, so that GitHub fixes the issue. You really shouldn't use this. It's super annoying.
 
 **How can GitHub fix this issue?**
 
