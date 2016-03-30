@@ -2,7 +2,7 @@ import json
 import requests
 
 
-class NoticeMe(object):
+class NoticeMe:
 
     def __init__(self, username, password):
         self.gh_username = username
