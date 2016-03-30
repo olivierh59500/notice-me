@@ -18,7 +18,7 @@ class NoticeMe:
 
             search_request = requests.get(
                 "https://api.github.com/search/users?q=followers:%3E" +
-                str(min_followers) + "&per_page=300&page=" + str(page),
+                str(min_followers) + "&per_page=100&page=" + str(page),
                 auth=(self.gh_username, self.gh_access))
 
             search_results = json.loads(search_request.text)
