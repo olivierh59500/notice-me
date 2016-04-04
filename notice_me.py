@@ -1,5 +1,6 @@
 import json
 import requests
+import sys
 
 
 class NoticeMe:
@@ -20,6 +21,9 @@ class NoticeMe:
                 "https://api.github.com/search/users?q=followers:%3E" +
                 str(min_followers) + "&per_page=100&page=" + str(page),
                 auth=(self.gh_username, self.gh_access))
+
+            if search_request.status_code == 401:
+                sys.exit(json.loads(search_request.text)['message'])
 
             search_results = json.loads(search_request.text)
 
